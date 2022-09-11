@@ -1,6 +1,6 @@
 # HAProxy Maintenance
 This example shows how to put HAProxy reverse proxied sites in maintenance mode using variables in global section.  
-The code is to complement [https://medium.com/@edgars.voroboks/put-your-haproxy-site-in-maintenance-mode-315d132fc203](https://medium.com/@edgars.voroboks/put-your-haproxy-site-in-maintenance-mode-315d132fc203) article.
+The code is to complement my Medium article [How to easy put your HAProxy sites in maintenance mode](https://medium.com/@edgars.voroboks/put-your-haproxy-site-in-maintenance-mode-315d132fc203).
 
 # Run example
 Prerequisites: [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/install/) installed.
