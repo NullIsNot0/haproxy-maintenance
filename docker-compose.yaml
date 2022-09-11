@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  haproxy:
+    image: haproxy:alpine
+    ports: [ "3000:80", "3001:81", "4001:4001" ]
+    volumes:
+      - ./haproxy:/usr/local/etc/haproxy:ro
+  webserver:
+    image: nginx:alpine
